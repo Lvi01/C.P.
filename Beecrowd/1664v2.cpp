@@ -7,6 +7,7 @@ int main() {
   set<string> diferentes;
   while(getline(cin, linha)){
     texto += linha;
+    texto += " ";
   }
   //cout << texto<< endl;
     for(int i=0; i<texto.size();i++){
